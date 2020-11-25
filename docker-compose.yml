@@ -6,4 +6,5 @@ services:
     image: "httpd"
     ports:
       - "80:80"
-    restart: "always"
+    # restart: "always"
+    restart: "unless-stopped"
